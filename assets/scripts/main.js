@@ -61,12 +61,12 @@ function initializeServiceWorker() {
         console.log('Service worker installed');
     } else if (registration.active) {
         console.log('Service worker active');
-      }
+    }
     } catch (error) {
       console.error(`Registration failed with ${error}`);
     }
-  }
-};
+  });
+}
   // Steps B3-B6 will be *inside* the event listener's function created in B2
   // B3. TODO - Register '/sw.js' as a service worker (The MDN article
   //            "Using Service Workers" will help you here)

@@ -53,6 +53,7 @@ function initializeServiceWorker() {
       {
         scope: '/',
       }
+      console.log("here");
       );
       if (registration.installing) {
         console.log('Service worker installing');
